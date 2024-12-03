@@ -306,7 +306,7 @@ dotnet_dependencies = [
 
 
 
-# File paths
+# File paths and make sure to add your output_dir
 
 output_dir = "/home/kali/9ine/Plugin_Audit/test"
 

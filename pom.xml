@@ -1,82 +1,119 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-  <dependencies>
+<modelVersion>4.0.0</modelVersion>
+
+<dependencies>
+
   <dependency>
-    <groupId>Selenium-java</groupId>
-    <artifactId>Selenium-java</artifactId>
-    <version>4.13.0</version>
-  </dependency>
-  <dependency>
-    <groupId>testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.7.1</version>
-  </dependency>
-  <dependency>
-    <groupId>json-simple</groupId>
-    <artifactId>json-simple</artifactId>
-    <version>1.1.1</version>
-  </dependency>
-  <dependency>
+
     <groupId>org.apache.poi</groupId>
+
     <artifactId>org.apache.poi</artifactId>
+
     <version>5.2.3</version>
+
   </dependency>
+
   <dependency>
-    <groupId>poi-ooxml</groupId>
-    <artifactId>poi-ooxml</artifactId>
-    <version>5.2.3</version>
-  </dependency>
-  <dependency>
-    <groupId>poi-ooxml-schemas</groupId>
-    <artifactId>poi-ooxml-schemas</artifactId>
-    <version>4.1.2</version>
-  </dependency>
-  <dependency>
-    <groupId>poi-scratchpad</groupId>
-    <artifactId>poi-scratchpad</artifactId>
-    <version>5.2.3</version>
-  </dependency>
-  <dependency>
-    <groupId>log4j-api</groupId>
-    <artifactId>log4j-api</artifactId>
-    <version>3.0.0-alpha1</version>
-  </dependency>
-  <dependency>
-    <groupId>extentreports</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>2.41.2</version>
-  </dependency>
-  <dependency>
-    <groupId>sikuli-api</groupId>
-    <artifactId>sikuli-api</artifactId>
-    <version>1.2.0</version>
-  </dependency>
-  <dependency>
-    <groupId>io.rest-assured</groupId>
-    <artifactId>io.rest-assured</artifactId>
-    <version>5.3.2</version>
-  </dependency>
-  <dependency>
-    <groupId>rest-assured-common</groupId>
-    <artifactId>rest-assured-common</artifactId>
-    <version>5.3.2</version>
-  </dependency>
-  <dependency>
-    <groupId>commons-io</groupId>
-    <artifactId>commons-io</artifactId>
-    <version>2.14.0</version>
-  </dependency>
-  <dependency>
+
     <groupId>javax.mail-api</groupId>
+
     <artifactId>javax.mail-api</artifactId>
+
     <version>1.6.2</version>
+
   </dependency>
+
   <dependency>
-    <groupId>jsoup</groupId>
-    <artifactId>jsoup</artifactId>
-    <version>1.16.1</version>
+
+    <groupId>maven-resources-plugin</groupId>
+
+    <artifactId>maven-resources-plugin</artifactId>
+
+    <version>3.3.1</version>
+
   </dependency>
+
+  <dependency>
+
+    <groupId>maven-clean-plugin</groupId>
+
+    <artifactId>maven-clean-plugin</artifactId>
+
+    <version>3.3.1</version>
+
+  </dependency>
+
+  <dependency>
+
+    <groupId>maven-project-info-reports-plugin</groupId>
+
+    <artifactId>maven-project-info-reports-plugin</artifactId>
+
+    <version>3.4.5</version>
+
+  </dependency>
+
+  <dependency>
+
+    <groupId>maven-compiler-plugin</groupId>
+
+    <artifactId>maven-compiler-plugin</artifactId>
+
+    <version>3.11.0</version>
+
+  </dependency>
+
+  <dependency>
+
+    <groupId>maven-surefire-plugin</groupId>
+
+    <artifactId>maven-surefire-plugin</artifactId>
+
+    <version>3.1.2</version>
+
+  </dependency>
+
+  <dependency>
+
+    <groupId>maven-jar-plugin</groupId>
+
+    <artifactId>maven-jar-plugin</artifactId>
+
+    <version>3.3.0</version>
+
+  </dependency>
+
+  <dependency>
+
+    <groupId>maven-install-plugin</groupId>
+
+    <artifactId>maven-install-plugin</artifactId>
+
+    <version>3.1.0</version>
+
+  </dependency>
+
+  <dependency>
+
+    <groupId>maven-deploy-plugin</groupId>
+
+    <artifactId>maven-deploy-plugin</artifactId>
+
+    <version>3.1.1</version>
+
+  </dependency>
+
+  <dependency>
+
+    <groupId>maven-site-plugin</groupId>
+
+    <artifactId>maven-site-plugin</artifactId>
+
+    <version>4.0.0-M9</version>
+
+  </dependency>
+
 </dependencies>
+
+</project>
